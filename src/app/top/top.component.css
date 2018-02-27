@@ -1,0 +1,59 @@
+:host {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+a {
+  display: inline-block;
+  box-sizing: border-box;
+  border: 2px solid #000;
+  background-color: #FFF;
+  font-size: 14px;
+  font-weight: 500;
+  color: #202020;
+  margin: 0;
+  padding: 8px 44px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 0;
+  outline: none;
+  -webkit-appearance: none;
+}
+
+.headImage {
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0 auto;
+  transition: 0.5s opacity;
+  position: absolute;
+  left: -9999px;
+  right: -9999px;
+}
+
+.headImage1 {
+  top: 160px;
+}
+
+
+.headImage2 {
+  top: 600px;
+}
+
+
+.headImage3 {
+  top: 1000px;
+}
+
+.headImage4 {
+  top: 1420px;
+}
+
+p {
+  margin-top: 340px;
+}
+

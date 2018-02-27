@@ -1,0 +1,43 @@
+<div class="addButton" *ngIf="wear">
+  <img [src]="wear.url">
+  <div class="detail">
+    <h1>{{wear.name}}</h1>
+    <div class="price">{{wear.price}}</div>
+    <div class="pickers">
+      <div>
+        <label id="sizeLabel" prefix="">Size</label>
+        <select id="sizeSelect" aria-labelledby="sizeLabel">
+          <option value="XS">XS</option>
+          <option value="S">S</option>
+          <option value="M" selected="">M</option>
+          <option value="L">L</option>
+          <option value="XL">XL</option>
+        </select>
+      </div>
+      <div>
+        <label id="quantityLabel" prefix="">Quantity</label>
+        <select id="quantitySelect" aria-labelledby="quantityLabel">
+          <option value="1" selected="">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+      </div>
+      <div class="description">
+        <h2>Description</h2>
+        <p id="desc">{{wear.description}}</p>
+        <div><br></div>
+        <div>Features:</div>
+        <div>
+          <ul>
+            <li *ngFor="let feature of wear.features">{{feature}}</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <button (click)="addCart(wear.id)" aria-label="Add this item to cart">Add to Cart</button>
+  </div>
+</div>

@@ -1,0 +1,78 @@
+:host {
+  flex-direction: row;
+  justify-content: center;
+}
+
+img {
+  vertical-align: top;
+  margin: 64px 32px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.detail {
+  top: 500px;
+  display: inline-block;
+  margin: 64px 32px;
+  width: 50%;
+  max-width: 400px;
+  transition: opacity 0.4s;
+  text-align: left;
+}
+
+.price {
+  margin: 16px 0 40px;
+  font-size: 16px;
+  color: #757575;
+}
+
+.pickers {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  border-top: 1px solid #ccc;
+}
+
+select {
+  font-size: 16px;
+  padding: 16px 24px 16px 70px;
+  width: 100%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 8px 24px 8px 0;
+  border: none;
+  background-color: transparent;
+  border-radius: 0;
+  font-size: 1em;
+  font-weight: 300;
+  color: #202020;
+  overflow: hidden;
+  margin: 0;
+  outline: none;
+}
+
+button {
+  display: inline-block;
+  box-sizing: border-box;
+  border: 2px solid #000;
+  background-color: #FFF;
+  font-size: 14px;
+  font-weight: 500;
+  color: #202020;
+  margin: 0;
+  padding: 8px 44px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 0;
+  outline: none;
+  -webkit-appearance: none;
+}
+
+.addButton {
+  text-align: center;
+}

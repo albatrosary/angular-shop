@@ -1,0 +1,10 @@
+<img class="headImage" [src]="imgUrl">
+<ul>
+  <li *ngFor="let detail of wears">
+    <a routerLink="/detail/{{id}}/{{detail.id}}">
+      <img class="wearImage" [src]="detail.url">
+      <div>{{detail.name}}</div>
+      <span>{{detail.price}}</span>
+    </a>
+  </li>
+</ul>

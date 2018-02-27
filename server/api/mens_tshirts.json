@@ -1,0 +1,29 @@
+{
+  "data" :[
+    {
+      "id": "10-13058B",
+      "name": "Men's Tech Shell Full-Zip",
+      "url": "./assets/images/mens_tshirts/10-13058B.jpg",
+      "price": "$50.20",
+      "description": "A versatile full-zip that you can wear all day long and even to the gym. This technical shell features moisture-wicking fabric, added stretch and a hidden pocket for your smartphone or media player. ",
+      "features": [
+        "100% polyester.",
+        "Smooth, technical front with textured mesh back.",
+        "Drawstring bottom for adjustable fit.",
+        "Raglan sleeves.",
+        "Available in forest green with the white Google logo embroidered at left chest."
+      ]
+    },
+    {
+      "id": "10-13239B",
+      "name": "Anvil L/S Crew Neck - Grey",
+      "url": "./assets/images/mens_tshirts/10-13239B.jpg",
+      "price": "$22.15",
+      "description": "You'll be swooning over this crew neck as soon as you feel how soft it is. ",
+      "features": [
+        "40% preshrunk ring-spun cotton, 60% polyester terry fleece. ",
+        "Available in dark heather charcoal with the white Google logo screen printed across center chest."
+      ]
+    }
+  ]
+}
