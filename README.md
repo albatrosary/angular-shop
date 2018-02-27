@@ -1,6 +1,10 @@
-# AngularShop
+# Angular Shop
+
+Replacing the Shop application in Polymer Project with Angular.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.0.
+
+https://shop.polymer-project.org/
 
 ## Development server
 
